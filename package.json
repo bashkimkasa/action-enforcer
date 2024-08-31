@@ -1,0 +1,36 @@
+{
+  "name": "action-enforcer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Probot app",
+  "author": "bashkimkasa",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "clean": "rm -rf ./lib",
+    "build": "npm run clean && tsc",
+    "start": "probot run ./lib/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "probot": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "nock": "^14.0.0-beta.5",
+    "smee-client": "^2.0.0",
+    "typescript": "^5.3.3",
+    "vitest": "^2.0.5"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "type": "module"
+}

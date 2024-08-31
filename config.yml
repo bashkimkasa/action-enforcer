@@ -1,0 +1,12 @@
+requiredActions:
+  - name: "actions/checkout@v4"
+  - name: "actions/setup-python@v5"
+  - name: "actions/setup-node@v2"
+  - name: "actions/setup-go"
+
+breakCeiling:
+  label: "allow-bypass"
+  title: "[skip action-enforcer check]"
+
+directives:
+  checkReusableWorkflows: true

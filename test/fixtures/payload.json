@@ -1,0 +1,16 @@
+{
+    "action": "open",
+    "pull_request": {
+      "number": 1,
+      "head": {
+        "sha": "abc123"
+      },
+      "base": {
+        "repo": {
+          "owner": { "login": "test" },
+          "name": "repo"
+        }
+      },
+      "labels": []
+    }
+  }
